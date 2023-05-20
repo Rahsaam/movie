@@ -10,6 +10,7 @@ module.exports = {
         '80%': '80%',
         '70%': '70%',
         '25%': '25%',
+        '20%': '20%',
         '60%': '60%',
         '50%': '50%',
         '40%': '40%',
@@ -18,7 +19,11 @@ module.exports = {
       colors: {
         'my-color': {
           DEFAULT: '#ff0000',
-          'dark-red': '#1D0000'
+          'dark-red': '#1D0000',
+          'dark-gray': '#1D2024',
+          'custom-orange': '#f37515',
+          'pale-gray': '#1f2226',
+          'hover-gray': '#414043',
         }
       },
       fontFamily: {

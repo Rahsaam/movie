@@ -8,3 +8,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.btn {
+    @apply text-white bg-red-900 p-2 inline-block font-bold text-lg rounded-xl
+}
+.red-box {
+    @apply bg-red-900 w-full py-10 sm:mt-0 mt-1  mx-auto  opacity-70 flex items-center justify-between rounded-lg hover:bg-red-700 cursor-pointer
+}
