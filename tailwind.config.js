@@ -24,6 +24,8 @@ module.exports = {
           'custom-orange': '#f37515',
           'pale-gray': '#1f2226',
           'hover-gray': '#414043',
+          'primary-gray': '#151515',
+          'dark-orange': '#663300'
         }
       },
       fontFamily: {
@@ -32,7 +34,10 @@ module.exports = {
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
         '4xl': '0 -5px 50px 30px rgba(0, 0, 0, 0.5)',
-      }
+      },
+      fontSize: {
+        '2sm': '10px',
+      },
     },
   },
   plugins: [],

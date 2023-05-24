@@ -13,5 +13,14 @@
     @apply text-white bg-red-900 p-2 inline-block font-bold text-lg rounded-xl
 }
 .red-box {
-    @apply bg-red-900 w-full py-10 sm:mt-0 mt-1  mx-auto  opacity-70 flex items-center justify-between rounded-lg hover:bg-red-700 cursor-pointer
+    @apply bg-my-color-dark-orange w-full py-10 sm:mt-0 mt-1  mx-auto  opacity-70 flex items-center justify-between rounded-lg hover:bg-my-color-custom-orange cursor-pointer
+}
+.movie-feat {
+    @apply bg-my-color-hover-gray text-white rounded-md uppercase p-1 border text-2sm
+}
+.section-title {
+    @apply text-my-color-hover-gray uppercase mb-2 text-lg
+}
+.movie-box {
+    @apply hover:text-white hover:bg-my-color-hover-gray text-white px-2 py-1 rounded-lg text-2xl cursor-pointer
 }
