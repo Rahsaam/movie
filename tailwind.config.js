@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      screens: {
-        "sm": "480px"
-      },
       width: {
         '80%': '80%',
         '70%': '70%',
@@ -37,6 +34,9 @@ module.exports = {
       },
       fontSize: {
         '2sm': '10px',
+      },
+      screens: {
+        "sm": "480px",
       },
     },
   },

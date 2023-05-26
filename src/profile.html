@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/output.css">
-    <script src="https://kit.fontawesome.com/a2bcc7d192.js" crossorigin="anonymous"></script>
+    <script
+    src="https://kit.fontawesome.com/1a4dd4a998.js"
+    crossorigin="anonymous"
+  ></script>
     <title>Document</title>
 </head>
 <body class="font-Inter bg-my-color-primary-gray">
@@ -18,7 +21,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
             </svg>
         </div>
-        <ul class="hidden md:flex space-x-10 font-bold">
+        <ul class="hidden md:flex space-x-7">
             <li class="hover:text-slate-300"><a  href="logout.html">Logout</a></li>
             <li class="hover:text-slate-300"><a  href="login.html">Login</a></li>
             <li class="hover:text-slate-300"><a  href="main.html">Watch list</a></li>
@@ -58,89 +61,58 @@
                         </div>
                         <small class="pt-1">@hesam.rahmani.2023</small>
                     </div>
-                    <!-- <div class="w-full"> -->
                         <a href="edit.html" class="text-white bg-my-color-dark-orange text-center hover:bg-red-700 mt-2 block p-1 rounded-lg">Edit profile</a>
-                    <!-- </div> -->
                 </div>
             </div>
             
             
             
             <div class="w-full mt-10 md:mt-0 flex flex-col items-center">
-                <!-- why mx-auto in full screen -->
-                <div class="flex justify-between w-80% md:ml-auto text-white">
-                    <div class="text-center md:w-auto">
-                            <small class="">Mon</small>
-                            <p class="md:text-3xl text-xl font-bold">19</p>
-                            <span class="text-sm">Feb</span>
-                    </div> 
-                    <div class="text-center md:w-auto">
-                            <small class="">Tue</small>
-                            <p class="md:text-3xl text-xl font-bold">20</p>
-                            <span class="text-sm">Feb</span>
-                    </div> 
-                    <div class="text-center md:w-auto">
-                            <small class="">Wed</small>
-                            <p class="md:text-3xl text-xl font-bold">22</p>
-                            <span class="text-sm">Feb</span>
-                    </div> 
-                    <div class="text-center md:w-auto">
-                            <small class="">Thu</small>
-                            <p class="md:text-3xl text-xl font-bold">23</p>
-                            <span class="text-sm">Feb</span>
-                    </div> 
-                    <div class="text-center md:w-auto relative">
-                        <div class="absolute left-1/2 bg-red-500 w-1 h-1 rounded-xl content-empty"></div>
-                            <small class="">Fri</small>
-                            <p class="text-3xl font-bold">24</p>
-                            <span class="text-sm">Feb</span>
-                    </div> 
-                    <div class="text-center md:w-auto">
-                            <small class="">Sat</small>
-                            <p class="md:text-3xl text-xl font-bold">25</p>
-                            <span class="text-sm">Feb</span>
-                    </div> 
-                    <div class="text-center md:w-auto">
-                            <small class="">Sun</small>
-                            <p class="md:text-3xl text-xl font-bold">26</p>
-                            <span class="text-sm">Feb</span>
-                    </div>
-                </div>
-                <div class="flex justify-between md:ml-auto w-80% pt-2">
-                    <div class="border-b w-60% mr-auto"></div>
-                    <div class="border-b w-25% ml-auto"></div>
-                </div>
-                <div class="w-80% md:ml-auto mt-4">
+                <div class="w-80% md:ml-auto mt-4 bg-black p-3 rounded-3xl">
                     <h2 class="text-white text-left text-2xl mt-3">for you:</h2>
                     <div class="mt-4">
-                        <ul class="flex flex-col md:flex-row gap-y-2 md:gap-0 justify-between">
-                            <li class="bg-my-color-hover-gray p-2 w-full md:w-40% rounded-3xl  md:mr-5 text-white flex items-center justify-around cursor-pointer hover:bg-my-color-pale-gray">
-                                <img src="../images/movie-2.png" class="w-10 md:h-auto rounded-full" alt="">
-                                <div class="flex flex-col">
-                                    <small>IMDB: 8.1</small> 
-                                    <small>Action</small>
-                                    <small>2023</small>
-                                </div>
+                        <div class="flex w-full justify-between">
+                            <ul class="flex flex-col gap-y-2 justify-between w-full">
+                                <li class="for-you-movie">
+                                    <div class="flex items-center">
+                                    <img src="../images/movie-2.png" class="w-10 md:h-auto rounded-full" alt="">
+                                    <h6 class="ml-3">morbius</h6>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <small>IMDB: 8.1</small> 
+                                        <small>Action</small>
+                                        <small>2023</small>
+                                    </div>
 
-                            </li>
-                            <li class="bg-my-color-hover-gray p-2 w-full md:w-40% rounded-3xl md:mr-5 text-white flex items-center justify-around cursor-pointer hover:bg-my-color-pale-gray">
-                                <img src="../images/movie-3.png" class="w-10 md:h-auto rounded-full" alt="">
-                                <div class="flex flex-col">
-                                    <small>IMDB: 7.5</small> 
-                                    <small>Action</small>
-                                    <small>2022</small>
-                                </div>
-                            </li>
-                            <li class="bg-my-color-hover-gray p-2 w-full md:w-40% rounded-3xl text-white flex items-center justify-around cursor-pointer hover:bg-my-color-pale-gray">
-                                <img src="../images/movie-4.png" class="w-10 md:h-auto rounded-full" alt="">
-                                <div class="flex flex-col">
-                                    <small>IMDB: 7.2</small> 
-                                    <small>Action</small>
-                                    <small>2022</small>
-                                </div>
-                            </li>
-                        </ul>
-                        <button class="text-white bg-my-color-hover-gray w-full h-12 mt-3 rounded-lg">more</button>
+                                </li>
+                                <li class="for-you-movie">
+                                    <div class="flex items-center">
+                                    <img src="../images/movie-3.png" class="w-10 md:h-auto rounded-full" alt="">
+                                    <h6 class="ml-3">Adam project</h6>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <small>IMDB: 7.5</small> 
+                                        <small>Action</small>
+                                        <small>2022</small>
+                                    </div>
+                                </li>
+                                <li class="for-you-movie">
+                                    <div class="flex items-center">
+                                    <img src="../images/movie-4.png" class="w-10 md:h-auto rounded-full" alt="">
+                                    <h6 class="ml-3">Free guy</h6>
+                                    </div>
+                                    <div class="flex flex-col">
+                                        <small>IMDB: 7.2</small> 
+                                        <small>Action</small>
+                                        <small>2022</small>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="bg-my-color-hover-gray ml-2 rounded-tr-3xl cursor-pointer hover:bg-my-color-primary-gray">
+                                <i class="fa-solid fa-angle-right mt-28 mx-5 text-white transition"></i>
+                            </div>
+                        </div>
+                        <button class="text-my-color-primary-gray bg-my-color-hover-gray w-full h-12 mt-2 rounded-b-3xl">Change genere</button>
                     </div>
                 </div> 
             </div>
@@ -148,15 +120,15 @@
        
         <section class="flex mt-10 w-full flex-col md:flex-row">
             <article class="flex justify-center gap-x-3">
-                <div class="bg-black text-white p-2 rounded-full text-center flex flex-col justify-center w-36">
+                <div class="bg-my-color-hover-gray text-white p-2 rounded-full text-center flex flex-col justify-center w-36">
                     <small>favourite genere</small>
                     <p class="text-lg font-bold">Action</p>
                 </div>
-                <div class="bg-black text-white p-2 rounded-full text-center flex flex-col justify-center w-36">
+                <div class="bg-my-color-hover-gray text-white p-2 rounded-full text-center flex flex-col justify-center w-36">
                     <small>watched</small>
                     <p class="text-xl font-bold">59H</p>
                 </div>
-                <div class="bg-black text-white p-2 rounded-full text-center flex flex-col justify-center w-36">
+                <div class="bg-my-color-hover-gray text-white p-2 rounded-full text-center flex flex-col justify-center w-36">
                     <small>Online</small>
                     <p class="text-xl font-bold">70H</p>
                 </div>
@@ -206,10 +178,10 @@
         <!-- <div class="border-b mt-16"></div> -->
 
         <!-- movies -->
-        <section class=" mx-auto mt-10">
+        <section class=" mx-auto mt-14">
             <div class="flex justify-between">
                 <h2 class="text-red-900 text-2xl">Watched</h2>
-                <button class="text-white">more...</button>
+                <button class="btn-secodary">more...</button>
             </div>
             <!-- <div class=" sm:grid sm:grid-cols-3 md:flex gap-6 mt-7"></div> -->
             <div class=" w-full overflow-x-scroll whitespace-no-wrap mx-auto mt-5 lg:max-w-7xl">
@@ -296,10 +268,10 @@
             </div>
             </div>
         </section>
-        <section class=" mx-auto mt-10">
+        <section class=" mx-auto mt-14">
             <div class="flex justify-between">
                 <h2 class="text-red-900 text-2xl">Favourite</h2>
-                <button class="text-white">more...</button>
+                <button class="btn-secodary">more...</button>
             </div>
             <!-- <div class=" sm:grid sm:grid-cols-3 md:flex gap-6 mt-7"></div> -->
             <div class=" w-full overflow-x-scroll whitespace-no-wrap mx-auto mt-5 lg:max-w-7xl">

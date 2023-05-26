@@ -12,6 +12,12 @@
 .btn {
     @apply text-white bg-red-900 p-2 inline-block font-bold text-lg rounded-xl
 }
+.btn-primary {
+    @apply text-white bg-my-color-dark-orange p-2 inline-block font-bold rounded-xl hover:text-my-color-dark-orange hover:bg-white transition md:text-xl
+}
+.btn-secodary {
+    @apply text-white bg-my-color-dark-orange rounded-xl text-sm p-1
+}
 .red-box {
     @apply bg-my-color-dark-orange w-full py-10 sm:mt-0 mt-1  mx-auto  opacity-70 flex items-center justify-between rounded-lg hover:bg-my-color-custom-orange cursor-pointer
 }
@@ -23,4 +29,10 @@
 }
 .movie-box {
     @apply hover:text-white hover:bg-my-color-hover-gray text-white px-2 py-1 rounded-lg text-2xl cursor-pointer
+}
+.movie-box-icon-main {
+    @apply bg-white p-2 text-black rounded-lg text-2xl font-bold cursor-pointer inline-block hover:bg-my-color-dark-orange hover:text-white transition
+}
+.for-you-movie {
+    @apply bg-my-color-dark-orange p-2 w-full rounded-l-3xl  md:mr-5 text-white flex items-center justify-between cursor-pointer hover:bg-my-color-pale-gray
 }
