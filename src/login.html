@@ -9,23 +9,34 @@
     src="https://kit.fontawesome.com/1a4dd4a998.js"
     crossorigin="anonymous"
   ></script>
-    <title>Document</title>
+    <title>My-movie</title>
 </head>
 <body class="font-Inter max-w-screen-2xl mx-auto"> 
     <div class="bg-cover bg-center bg-no-repeat h-screen bg-my-color-dark-red flex justify-center items-center" style="background-image: url('../images/Movie-Wallpaper-HD-Free-download\ \(1\).jpg')">
         <div>
-            <!-- <div class="flex justify-between mb-10">
-                <a href="signUp.html" class="btn hover:bg-red-800">sign up</a>
-                <span><i class="fas fa-video text-white text-3xl"></i></span>
-            </div> -->
             <form class="shadow-4xl bg-black opacity-70 p-8 w-96 rounded-xl">
                 <div class="flex flex-col mb-10">
-                <label class="text-white mb-2 text-lg" for="email">Username:</label>
-                <input class="bg-transparent border-b focus:outline-none text-white" type="email" id="email" name="email" placeholder="write your email">
+                <label class="text-white mb-2 text-lg" for="username">Username:</label>
+                <input class="input" 
+                type="text" 
+                id="username" 
+                name="username" 
+                placeholder="write your username"
+                aria-invalid="true"
+                aria-describedby="username-desc"
+                aria-disabled="true"
+                aria-label="Username"
+                >
                 </div>
                 <div class="flex flex-col mb-8">
                 <label class="text-white mb-2 text-lg" for="password">Password:</label>
-                <input class="bg-transparent border-b focus:outline-none text-white" type="password" id="password" name="password" placeholder="write yor password">
+                <input class="input" 
+                type="password" 
+                id="password" 
+                name="password" 
+                placeholder="write yor password"
+                aria-required="true"
+                >
                 </div>
                 <div>
                     <a href="main.html" class="btn">login</a>

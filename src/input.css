@@ -36,3 +36,6 @@
 .for-you-movie {
     @apply bg-my-color-dark-orange p-2 w-full rounded-l-3xl  md:mr-5 text-white flex items-center justify-between cursor-pointer hover:bg-my-color-pale-gray
 }
+.input {
+    @apply bg-transparent border-b focus:outline-none text-white
+}
