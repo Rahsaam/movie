@@ -1,0 +1,7 @@
+.main-poster .background-image {
+    background-image: url("../images/sonics.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+  }

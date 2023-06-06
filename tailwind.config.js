@@ -21,6 +21,7 @@ module.exports = {
           'custom-orange': '#f37515',
           'pale-gray': '#1f2226',
           'hover-gray': '#414043',
+          'secodary-gray': '#4d4d4d',
           'primary-gray': '#151515',
           'dark-orange': '#663300'
         }
@@ -34,6 +35,7 @@ module.exports = {
       },
       fontSize: {
         '2sm': '10px',
+        '3sm': '11px',
       },
       screens: {
         "sm": "480px",
